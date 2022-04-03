@@ -35,32 +35,32 @@
  <h2> screenshoots of web pages</h2>
  <br>
  <p>Home page</p>
- <img src="./image/landing.png"/>
+ <img src="landing.png"/>
  <br>
  <br>
  <p>Product page</p>
- <img src="./image/product.png"/>
+ <img src="product.png"/>
  <br>
  <br>
  <p>Sign in page</p>
- <img src="./image/login.png"/>
+ <img src="login.png"/>
  <br>
  <br>
  <p>Cart page</p>
- <img src="./image/cart.png"/>
+ <img src="cart.png"/>
  <br>
  <br>
  <p>Checkout page</p>
- <img src="./image/info.png"/>
+ <img src="info.png"/>
 <br>
  <p>Checkout page</p>
- <img src="./image/payment.png"/>
+ <img src="payment.png"/>
  <br>
  <br>
 
 
  <p>Footer section</p>
- <img src="./image/footer.png"/>
+ <img src="footer.png"/>
  <br>
 
  <h2>Learnings</h2>
