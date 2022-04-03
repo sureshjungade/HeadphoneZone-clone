@@ -1,0 +1,125 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+  }
+#contact{
+   display: flex;
+   justify-content: space-between;
+   
+}
+#contact>div{
+   margin-right: 100px;
+}
+.gray{
+  color: #808080;
+}
+#input1{
+height: 45px;
+width: 615px;
+border-radius: 10px;
+margin-top: 20px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border: 0px;
+}
+#vehicle1{
+margin-top: 20px;
+cursor: pointer;
+
+}
+#outter{
+height: 120px;
+width: 615px;
+border: 1px solid #ffea9c;
+margin-top: 20px;
+border-radius: 10px;
+
+
+}
+
+#inner{
+height: 40%;
+width: 615px;
+background-color:  #ffea9c;
+border-radius: 10px 10px 0px 0px;
+display: flex;
+gap: 20px;
+
+}
+#z1{
+display: flex;
+gap: 50px;
+}
+#a1,#a2{
+display: flex;
+gap: 10px;
+}
+#a1>button,#a2>button{
+height: 20px;
+width: 20px;
+border-radius: 50%;
+margin-top: 15px;
+cursor: pointer;
+border: 0px;
+}
+#a2>button{
+background-color: #000;
+}
+.itag{
+height: 45px;
+width: 615px;
+border-radius: 10px;
+margin-top: 15px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border: 0px;
+}
+#flex{
+display: flex;
+gap: 30px;
+}
+#flex>input{
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+height: 45px;
+width: 290px;
+border-radius: 10px;
+margin-top: 15px;
+border: 0px;
+
+}
+#flex2{
+display: flex;
+gap: 25px;
+}
+
+#flex2>input{
+border-radius: 10px;
+margin-top: 15px;
+border: 0px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+height: 45px;
+width: 185px;
+}
+input::placeholder{
+padding-left: 10px;
+}
+#abcd{
+margin-top: 20px;
+cursor: pointer;
+}
+.com3{
+margin-left: 380px !important;
+width: 240px !important;
+
+}
+.contra{
+height: 600px;
+}
+.com3>a{
+text-decoration: none;
+color: white;
+}
+.info{
+    font-weight: bold;
+}
+#pay1{
+    font-weight: 100 !important;
+}

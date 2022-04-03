@@ -1,0 +1,67 @@
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100vh;
+    background: rgba(0, 0,0,0);
+    z-index: 1;
+    display: none;
+}
+
+
+.popup .content{
+    position: absolute;
+    top: 49%;
+    left: 77%;
+    transform: translate(-50%,-50%) scale(0);
+    background: white;
+    width: 600px;
+    height: 700px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.popup .closebtn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+line-height: 30px;
+text-align: center;
+border-radius: 50%;
+cursor: pointer;
+
+}
+.popup.active .overlay{
+    display: block;
+}
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+input{
+  width: 90%;
+  height: 100px;
+  margin-top: 30px;
+ border-top:  1px ;
+ border-left: 1px;
+ border-right: 1px; 
+ font-size: 40px;
+ color: #808080;
+
+}
+input::placeholder{
+  color: #808080;
+  font-size: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

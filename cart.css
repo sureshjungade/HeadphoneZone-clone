@@ -1,0 +1,292 @@
+*{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#container{
+    width: 1203px;
+    height: 940px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.div1{
+    width: 590px;
+    height: 674px;
+}
+
+.div2{
+    width: 510px;
+    height: 100%;
+}
+.mainimg{
+    width: 590px;;
+    height: 590px;
+}
+
+.div2a{
+    width: 100%;
+    height: 235px;
+}
+.div2b{
+    width: 100%;
+    height: 274px;
+}
+.div2c{
+    width: 100%;
+    height: 274px;
+}
+.sname{
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.fname{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top: -8px;
+    margin-bottom: 4px;
+}
+.span{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.pricediv{
+    height: 39px;
+    display: flex;
+    margin-top: 17px;
+}
+.price{
+    font-size: 22px;
+    color: #410dff;
+    font-weight: bold;
+    width: 20%;
+}
+.offprice{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 8px;
+    text-decoration: line-through;
+    width: 20%;
+}
+.extratext{
+    font-size: 14px;
+    color: gray;
+    margin-top: 7px;
+    margin-left: 150px;
+}
+.extratext1{
+    font-size: 12px;
+    color: gray;
+}
+.extratext2{
+    font-size: 12px;
+    color:  gray;
+}
+.div2ba{
+    height: 86px;
+    display: flex;
+    gap: 20px;
+}
+.img01{
+    width: 72px;
+    height: 72px;
+    border: 0.5px solid #999999;
+    border-radius: 5px;
+}
+.img00{
+    width: 72px;
+    height: 72px;
+    border: 0.5px solid #999999;
+    border-radius: 5px;
+}
+.colortext{
+    font-size: 14px;
+    color: gray;
+    margin-top: 1px;
+}
+.mictext{
+    font-size: 14px;
+    color: gray;
+    display: block;
+    margin-top: -0px;
+}
+.btn{
+    width: 75px;
+    height: 35px;
+    border: 1.5px solid black;
+    display: block;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.button{
+    width: 100%;
+    height: 52px;
+    background-color: #3c07ff;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.confusebtn{
+    margin-top: 15px;
+    width: 100%;
+    height: 52px;
+    background-color: #d6d4d4;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.div2ca{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+}
+.input{
+    width: 128px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #d6d4d4;
+    color: white;
+    
+}
+.inputtext{
+    font-weight: bold;
+}
+.deliverys{
+    margin-top: 20px;
+    margin-bottom: -9px;
+}
+.deliveryend{
+    font-weight: 600;
+}
+.cod{
+    font-weight: 600;
+}
+.shiptext{
+    margin-top: 20px;
+    margin-bottom: -9px;
+}
+.shiptextend{
+    font-weight: 600;
+
+}
+.cod{
+    margin-top: 20px;
+    margin-bottom: -9px;
+}
+.codend{
+    font-weight: 600;
+
+}
+.div2cb{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+}
+.retn{
+    margin-top: 20px;
+    margin-bottom: -9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.retnend{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ex{
+    margin-top: 20px;
+    margin-bottom: -9px;
+    font-weight: 600;
+}
+.exend{
+    font-weight: 600;
+}
+.replace{
+    margin-top: 20px;
+    margin-bottom: -9px;
+    font-weight: 600;
+}
+.replaceend{
+    font-weight: 600;
+}
+
+.warnty{
+    margin-top: 20px;
+    margin-bottom: -9px;
+    font-weight: 600;
+}
+.warntyeend{
+    font-weight: 600;
+}
+
+.div2cc{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+}
+
+.bpl{
+    margin-top: 20px;
+    margin-bottom: -9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.bplend{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.img51{
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.img02{
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.img03{
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.img04{
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.div2cd{
+    display: flex;
+    font-size: 12px;
+}
+.img52{
+    width: 118px;
+    height: 47px;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+.text01{
+    margin-top: 20px;
+    width: 190px;
+    margin-left: 40px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+

@@ -1,0 +1,239 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#grand{
+    height: 900px;
+    width: 100%;
+    background-color: #c4c4c5;
+}
+
+#container{
+    width: 50%;
+    height: 900px;
+    border: 1px solid rebeccapurple;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+#border{
+    width: 100%;
+    height: 5px;
+  
+    border-radius: 10px 10px 0px 0px;
+    background-color: blue;
+}
+#main{
+    display: flex;
+    margin-top: 30px;
+  
+}
+#main2{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    
+}
+#main2>h3{
+    padding-left: 15px;
+  
+}
+
+#main2>h3>span{
+   color: red;
+   font-size: 12px;
+   font-family: 'Roboto', sans-serif;
+   cursor: pointer;
+
+}
+#main2>img{
+height: 60px;
+width: 100px;
+margin-top: 10px;
+margin-left: 15px;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#price{
+    padding-right: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 270px;
+}
+#pay{
+    width: 90%;
+    height: 450px;
+  
+    margin: auto;
+    border-radius: 10px;  
+    margin-top: 55px;  
+    display: flex;
+    background-color: white;
+}
+
+#upi{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding:15px;
+
+}
+#upi>div{
+    height: 45px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.a{
+    display: flex;
+}
+.a>i{
+    margin-top: 18px;
+    margin-left: 20px;
+    
+}
+.a>p{
+    margin-left: 10px;
+  align-items: center;
+}
+
+
+#upi>div:hover{
+    background-color:  blue;
+    color: white;
+   
+}
+
+#upipay{
+    height: 400px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 20px;
+    border-radius: 10px;
+   
+}
+#upipay>p{
+    color: #808080;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.5px;
+    padding-top: 6px;
+
+}
+#i1,#i2{
+    height: 40px;
+    width: 260px;
+   margin-left: 17px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   border: 0px;
+}
+#id{
+    display: flex;
+}
+.i3{
+    height: 40px;
+    width: 40%;
+    border-radius: 8px;
+    margin-left: 16px ;
+    padding-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 0px;
+}
+.i3:focus {
+   
+    outline: none;
+    border: 3px solid blue;
+  }
+  #i1:focus{
+    outline: none;
+    border: 3px solid blue;  
+  }
+#i2:focus{
+    outline: none;
+    border: 3px solid blue;  
+ 
+  }
+#btn{
+    display: flex;
+}
+#btn>button{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px solid blue;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#btn>p{
+    color: #808080;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.5px;
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+#btn>p>span{
+    color: blue;
+    font-size: 13.5px;
+}
+#pn{
+    height: 40px;
+    width: 270px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 15px;
+    border: 0px;
+    margin-top: 5px;
+   
+    
+}
+#pn>a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+#pcard{
+    display: flex;
+}
+#pcard>div>img{
+height: 30px;
+width: 50px;
+margin-top: 20px;
+margin-left: 8px;
+
+}
+#x{
+padding-left: 5px;
+}
+#ps{
+  margin-top: 100px;
+   margin-left: 310px;
+ font-size: 13.5px;
+ font-weight: bold;
+}
+#ps2{
+   
+    margin-left: 320px;
+    height: 30px;
+    width: 90px;
+}
+.p3{
+    height: 60px;
+    width: 250px;
+  
+}
+#last{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 40px;
+   
+}
+.p4{
+    width:80px ;
+}
+#paynow{
+    text-decoration: none;
+    color: white;
+}

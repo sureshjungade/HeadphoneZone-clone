@@ -1,0 +1,371 @@
+* {
+  font-family: sans-serif;
+}
+#container {
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 35%;
+  margin-top: 5%;
+}
+#container > h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: #444444;
+}
+/* ---------------Login with social Accounts------------------- */
+.col {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 6px;
+  margin-top: 50px;
+}
+.fb {
+  background-color: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: white;
+}
+
+.google {
+  background-color: #4285f4;
+  color: white;
+}
+.btn:hover {
+  opacity: 2;
+}
+.btn {
+  /*   
+  justify-content: space-around; */
+  width: 35%;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  margin-left: 5px;
+  /* margin: 5px 0; */
+  opacity: 0.85;
+  /* display: inline-block; */
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+/* ------- h4 tag  login with social-------- */
+h4 {
+  margin: 30px auto;
+  text-align: center;
+  max-width: 400px;
+  font-family: sans-serif;
+  position: relative;
+  color: #444444;
+}
+h4:before {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 0.5px;
+  background: #444444;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+h4:after {
+  content: "";
+  display: block;
+  width: 23%;
+  height: 0.2px;
+  background: #444444;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+div > p {
+  text-align: center;
+  margin-top: 30px;
+  color: #444444;
+}
+
+/* ------email login form------- */
+#email {
+  width: 90%;
+  padding: 20px;
+  outline: none;
+  border: 0.1px solid gray;
+  background: none;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+#email:focus {
+  border: 2px solid rgb(56, 56, 56);
+}
+.form-lable {
+  position: relative;
+  top: -2.4rem;
+  left: 1.6rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+#email:focus ~ .form-lable,
+#email:not(:placeholder-shown)#email:not(:focus) ~ .form-lable {
+  top: -4.3rem;
+  left: 1rem;
+  font-size: 12px;
+  background: white;
+}
+#pass {
+  width: 90%;
+  padding: 20px;
+  outline: none;
+  background: none;
+  border: 0.1px solid gray;
+  border-radius: 50px;
+  margin-top: 0px;
+}
+#pass:focus {
+  border: 2px solid rgb(56, 56, 56);
+}
+.form-lable2 {
+  position: relative;
+  top: -2.4rem;
+  left: 1.6rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.form-lable3 a {
+  position: relative;
+  color: gray;
+  top: -2.4rem;
+  left: 14.6rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#pass:focus ~ .form-lable2,
+#pass:not(:placeholder-shown)#pass:not(:focus) ~ .form-lable2 {
+  top: -4.5rem;
+  left: 1rem;
+  font-size: 12px;
+  background: white;
+}
+
+/* ---button styling--- */
+
+.btnn {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  font-style: sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: #3c07ff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.btnn:hover {
+  background-color: #210586;
+}
+#create_acc {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  margin-top: 15px;
+  row-gap: -8px;
+}
+#create_acc > div > a {
+  /* border: 1px solid green; */
+  color: gray;
+  text-decoration: underline;
+}
+
+/* --------------registration form------------- */
+#name {
+  width: 90%;
+  padding: 20px;
+  outline: none;
+  background: none;
+  border: 0.1px solid gray;
+  border-radius: 50px;
+  margin-top: 0px;
+}
+#name:focus {
+  border: 2px solid rgb(56, 56, 56);
+}
+.form-lable4 {
+  position: relative;
+  top: -2.4rem;
+  left: 1.6rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+#name:focus ~ .form-lable4,
+#name:not(:placeholder-shown)#name:not(:focus) ~ .form-lable4 {
+  top: -4.3rem;
+  left: 1rem;
+  font-size: 12px;
+  background: white;
+}
+#lastname {
+  width: 90%;
+  padding: 20px;
+  outline: none;
+  background: none;
+  border: 0.1px solid gray;
+  border-radius: 50px;
+  margin-top: 0px;
+}
+#lastname:focus {
+  border: 2px solid rgb(56, 56, 56);
+}
+.form-lable5 {
+  position: relative;
+  top: -2.4rem;
+  left: 1.6rem;
+  cursor: text;
+  transition: top 0.5s ease-in, left 0.5s ease-in, font-size 0.5s ease-in;
+}
+#lastname:focus ~ .form-lable5,
+#lastname:not(:placeholder-shown)#lastname:not(:focus) ~ .form-lable5 {
+  top: -4.3rem;
+  left: 1rem;
+  font-size: 12px;
+  background: white;
+}
+
+/* ----------------footer----------- */
+footer{
+  margin-top: 80px;
+}
+#footer_main {
+ width: 100%;
+ background-color: #f9f9f9;
+ /* border: 1px solid red; */
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ gap: 10px;
+}
+#footer_main div {
+ /* border: 1px solid black; */
+ margin-top: 60px;
+}
+.footer_div2 {
+ margin-left: -50px;
+}
+
+div > h5 {
+ font-size: 12px;
+ font-weight: 800;
+ color: #444444;
+ letter-spacing: 1px;
+ margin: 5px 0 20px 40px;
+}
+#footer_main ul li {
+ list-style-type: none;
+ line-height: 30px;
+ /* margin: 0px 0 0px  0px; */
+}
+#footer_main ul li a {
+ text-decoration: none;
+ color: #444444;
+ opacity: 1;
+}
+#footer_main ul li a:hover {
+ opacity: 0.5;
+}
+#footer_main p {
+ text-align: left;
+ margin-left: 40px;
+ line-height: 25px;
+}
+#footer_main p + a {
+ margin-left: 40px;
+ 
+ color: #444444;
+ opacity: 0.8;
+}
+#footer_main p + a:hover{
+ opacity: 1;
+}
+#icon{
+ display: flex;
+ align-items: center;
+ margin-left: 40px;
+}
+#icon>div{
+ border: 0.5px solid rgb(196, 194, 194);
+ padding: 20px;
+ margin-top: -30px;
+}
+#icon>div:hover{
+   background-color: #444444;
+   color:#fff;
+   opacity: 0.8;
+}
+#icon>div a{
+ font-size: 20px;
+ color: #444444;
+ 
+}
+#icon>div a:hover{
+  color: #fff;
+}
+
+
+#pay_partener{
+   display: flex;
+   justify-content: center;
+   background-color: #f9f9f9;
+   
+ }
+ #pay_partener>div{
+   width: 60px;
+   margin-top: 50px;
+}
+#pay_partener div p{
+ font-size: 10px;
+ padding-right: 10px;
+ font-weight: 700;
+ margin-top: 8px;
+ padding-bottom: 20px;
+}
+#pay_partener>div:nth-child(10) img
+{
+   width: 40px;
+}
+hr{
+ margin-top: 0px;
+margin-bottom: 0px;
+border: 0.2px thin gray;
+}
+#lastdiv{
+ background-color: #f9f9f9;
+ margin-top: -30px;
+}
+#lastdiv p{
+ padding-top: 25px;
+}
+#lastdiv p+p{
+ margin-top: -30px;
+}
+#lastdiv p+p+p{
+ padding-bottom: 30px;
+}
+#lastdiv p+p a{
+  color: #444444;
+  opacity: 0.9;
+}
+#lastdiv p+p a:hover{
+ opacity: 1;
+}
+
+
+
+
+
+

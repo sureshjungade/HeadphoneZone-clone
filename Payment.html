@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    
+    <div class="contra"> 
+
+<div id="add"> 
+    <img src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719" alt="">
+
+
+<p id="cart">  Cart <i class="fa-solid fa-greater-than"></i> Information <i class="fa-solid fa-greater-than"></i> <span>Payment</span></p>
+
+
+<div id="info">  
+<div class="one"> 
+<p class="p1">Contact</p>
+<p class="p2">aryanjaiswal0007@gmail.com</p>
+<p class="p3">Change</p>
+</div>
+<hr>
+
+<div class="one , two">
+<p class="p4">Ship to</p>
+<p class="p5">Kolkata,700006,West Bengal,india</p>
+<p class="p6">Change</p>
+
+</div>
+</div>
+
+
+
+<p id="pay">Payment</p>
+<p class="p7">All transactions are secure and encrypted.</p>
+
+<div id="parent">
+    
+<div class="razor">
+<button class="btn1" onclick="btnfun()"></button>
+<img class="photo1" src="https://cdn.shopify.com/s/files/applications/e273f27d4c4fa65fc8e2af05e552f04e.png?height=24&1637057371" alt="">    
+
+<div class="cards"> 
+<img class="photo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTRN224FVNEbniRfKBfUd7E_07b4o8Hg7mVE5RZvthwFldJP0o2" alt="">
+<img class="photo"  src="data:image/jpeg;base64,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" alt="">
+<img class="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMB6KwAcMDUZz3BiN7DD3vNksHmhiHlwQ8Qg&usqp=CAU" alt="">
+<img class="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC-BJBv0oPmRuFAekl_haXnhZTDnYS_MCuaCwGKtugqsovZgvf9HWEQNEfhqS2lObGPJ0&usqp=CAU" alt="">
+<p>and more...</p>
+</div>
+
+</div>
+
+<div id="complete">
+ <img id="photopay" src="whatsapp.jpg" alt="">  
+   
+    
+</div>
+
+
+<div id="card2" >
+    <button class="btn1" onclick="btnfun()"></button>
+<div>
+  <img src="https://cdn.shopify.com/s/files/applications/8a630635afb9705023ab5b2d60169655.png?height=24&1525792854" alt="">
+</div>
+<div id="card3" >  
+    <img class="photo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTRN224FVNEbniRfKBfUd7E_07b4o8Hg7mVE5RZvthwFldJP0o2" alt="">
+    <img class="photo"  src="data:image/jpeg;base64,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" alt="">
+    <img  class="photo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2_qNS7gMmhKsqMejuwx6d4RF09Eqn-fFilHco1DotYKhuafJD" alt="">
+     
+
+</div>
+</div>
+
+
+<div class="cod">
+    <button class="btn1" onclick="btnfun()"></button>
+<p class="c">	
+    Pay on Delivery (Pay online through SMS Pay Link) - Cash on Delivery Available</p>
+</div>
+
+<div class="cod">
+    <button class="btn1" onclick="btnfun()"></button>
+<p class="a">	Simpl Pay-in-3 (Get 10% Cashback*!!) 🎁</p>
+<div > 
+<img class="photo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTRN224FVNEbniRfKBfUd7E_07b4o8Hg7mVE5RZvthwFldJP0o2" alt="">
+
+<img class="photo"  src="data:image/jpeg;base64,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" alt="">
+</div>
+</div>
+
+<div class="cod">
+    <button class="btn1" onclick="btnfun()"></button>
+<p class="b">Cardless 0% EMI, No Credit Card Required SNAPMINT</p>
+<img class="photo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9_PbY2EDt3IGOKlWcpMhpOZDx5ATVq7ApU_nll26SntAIdUMV" alt="">
+</div>
+
+</div>
+
+<p class="bill">Billing address</p>
+<p class="b1">Select the address that matches your card or payment method.</p>
+
+
+
+<div id="ship">
+
+    <div> 
+
+        <button class=" btn2" onclick="btn2()"></button>
+        <p class="sb1">Same as shipping address</p>
+    </div>
+  
+<hr id="hr2">
+
+<div>  
+    <button class=" btn2" onclick="btn2()"></button>
+<p class="sb1">Use a different billing address</p>
+
+</div>
+</div>
+
+<div id="com1">   
+
+    <p id="in"> < Return to customer information</p>
+
+    <button id="com2" onclick="btnfunherf()">Complete Order</button>
+</div>
+
+<p id="corona"> Safety first! Pay online to ensure contactless delivery</p>
+
+<hr id="hr3">
+
+
+<div id="policy">
+<p>Refund policy</p>
+<p>Privacy policy</p>
+<p>Terms of service</p>
+
+    
+</div>
+</div>
+
+
+
+
+
+
+<div id="discount">
+    
+    <div id="contra"> 
+    <div>
+<img src="https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-KZ-ZSN-Pro-X-Black-03_400x.jpg?v=1623407931" alt="">
+<p class="pass">Final - E3000 <br> <span style="color: #808080;font-size: 12px;"> E3000 without Mic</span></p>
+    </div>
+    <div>
+      <p class="pass2"> ₹1,699.00</p>  
+  
+    </div>
+  
+</div>
+
+<hr id="h4">
+
+<div id="ib"> 
+    <input onkeyup="changeTheColorOfButtonDemo()" id="input" type="text" placeholder="Gift card or discount code">
+
+    <button id="ibtn">Apply</button>
+
+</div>
+
+<hr id="h6">
+
+<div id="sub">
+    <p>Subtotal</p>
+    <p style="color: black;">₹7,398.00</p>
+</div>
+
+<div id="free">
+    <p>Shipping</p>
+    <p style="color: black;">Free</p>
+</div>
+<hr id="hr7">
+<div id="total">
+    <p>Total</p>
+    <div id="inr">
+        <p>INR</p>
+        <p id="h2">₹7,398.00</p>
+    </div>
+</div>
+
+
+</div>
+
+
+    </div>
+
+
+</body>
+</html>
+
+
+<script src="payment.js">
+
+
+
+</script>
